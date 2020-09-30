@@ -2,9 +2,7 @@ import {
   LitElement, html, css
 } from 'lit-element';
 
-import menu from './menu';
-
-class MainTools extends LitElement {
+class MainPage extends LitElement {
   static get styles() {
     return css`
       :host {
@@ -12,13 +10,13 @@ class MainTools extends LitElement {
       }`;
   }
 
-  firstUpdated() {
-    menu();
+  render() {
+    return html`Page`;
   }
 
   static get is() {
-    return 'main-tools';
+    return 'main-page';
   }
 }
 
-customElements.define(MainTools.is, MainTools);
+customElements.define(MainPage.is, MainPage);

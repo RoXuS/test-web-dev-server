@@ -6,5 +6,9 @@
   "dependencies": {
     "@web/dev-server": "^0.0.12",
     "lit-element": "^2.4.0"
-  }
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "type": "module"
 }
